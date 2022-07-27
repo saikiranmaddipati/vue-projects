@@ -2,7 +2,10 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <span v-if="seen">Now you see me</span>
+    <h1>Login</h1>
+      <input type="text" name="username" v-model="input.username" placeholder="Username" />
+      <input type="password" name="password" v-model="input.password" placeholder="Password" />
+      <button type="button" v-on:click="login()">Login</button>
   </div>
 </template>
 
