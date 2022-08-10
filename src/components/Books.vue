@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'BooksWorld',
+  name: 'BooksQuantity',
   data (){
     return {
         title:'Word Bulid',
